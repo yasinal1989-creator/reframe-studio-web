@@ -24,7 +24,7 @@ export function ServicesSection() {
             <SectionReveal key={service.title} delay={index * 0.04}>
               <MotionCard className="cinematic-panel group h-full rounded-lg border p-7 transition duration-500 hover:border-[rgba(201,133,77,0.22)] hover:shadow-[0_30px_90px_rgba(0,0,0,0.38),0_0_46px_rgba(201,133,77,0.08)]">
                 <div className="mb-10 flex items-center justify-between">
-                  <span className="premium-label text-[0.68rem] font-bold uppercase text-amber/85">
+                  <span className="tabular-nums text-[0.68rem] font-bold tracking-normal text-amber/85">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="h-px w-14 bg-[rgba(201,133,77,0.2)] transition duration-500 group-hover:w-20 group-hover:bg-amber/75" />

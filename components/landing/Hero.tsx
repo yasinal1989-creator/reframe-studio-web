@@ -81,7 +81,7 @@ export function Hero() {
           >
             <a
               href="#iletisim"
-              className="group inline-flex items-center justify-center gap-3 rounded-full bg-cream px-6 py-4 text-sm font-bold uppercase tracking-[0.16em] text-background shadow-[0_18px_48px_rgba(244,239,230,0.08)] transition duration-500 hover:-translate-y-0.5 hover:bg-gold hover:text-background hover:shadow-[0_24px_70px_rgba(201,133,77,0.18)]"
+              className="group inline-flex items-center justify-center gap-3 rounded-full bg-cream px-6 py-4 text-sm font-bold uppercase tracking-[0.08em] text-background shadow-[0_18px_48px_rgba(244,239,230,0.08)] transition duration-500 hover:-translate-y-0.5 hover:bg-gold hover:text-background hover:shadow-[0_24px_70px_rgba(201,133,77,0.18)]"
             >
               Projenizi Anlatın
               <span
@@ -93,14 +93,14 @@ export function Hero() {
             </a>
             <a
               href="#flow"
-              className="inline-flex items-center justify-center rounded-full border border-[rgba(201,133,77,0.2)] bg-white/[0.025] px-6 py-4 text-sm font-bold uppercase tracking-[0.16em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.38)] hover:bg-amber/[0.08]"
+              className="inline-flex items-center justify-center rounded-full border border-[rgba(201,133,77,0.2)] bg-white/[0.025] px-6 py-4 text-sm font-bold uppercase tracking-[0.08em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.38)] hover:bg-amber/[0.08]"
             >
               Reframe Flow’u İnceleyin
             </a>
           </motion.div>
           <motion.div
             variants={heroItem}
-            className="mt-10 flex flex-wrap gap-3 text-[0.68rem] font-bold uppercase tracking-[0.24em] text-cream-muted/70"
+            className="mt-10 flex flex-wrap gap-3 text-[0.68rem] font-bold uppercase tracking-[0.1em] text-cream-muted/70"
           >
             <span>Video</span>
             <span className="text-amber">/</span>
@@ -176,7 +176,7 @@ export function Hero() {
               <p className="premium-label mt-5 text-[0.68rem] font-bold uppercase text-amber/90">
                 Field to Frame
               </p>
-              <p className="mt-3 text-xs font-medium uppercase tracking-[0.2em] text-cream-muted/62">
+              <p className="mt-3 text-xs font-medium uppercase tracking-[0.09em] text-cream-muted/62">
                 Production System
               </p>
             </div>

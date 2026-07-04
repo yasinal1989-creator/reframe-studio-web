@@ -15,8 +15,8 @@ export function ProcessSection() {
           {processSteps.map((step, index) => (
             <SectionReveal key={step} delay={index * 0.04}>
               <div className="cinematic-panel grid gap-5 rounded-lg border p-6 sm:grid-cols-[4rem_1fr] sm:items-center">
-                <span className="text-3xl font-black tracking-normal text-amber/85">
-                  {index + 1}
+                <span className="tabular-nums text-3xl font-black tracking-normal text-amber/85">
+                  {String(index + 1).padStart(2, "0")}
                 </span>
                 <p className="text-xl font-black leading-snug tracking-normal text-cream">
                   {step}

@@ -39,7 +39,7 @@ export function PilotSection() {
                   key={item}
                   className="group grid grid-cols-[3.25rem_1fr] items-center border-b border-white/[0.055] py-5 last:border-b-0"
                 >
-                  <span className="grid h-8 w-8 place-items-center rounded-full border border-[rgba(201,133,77,0.16)] bg-background/50 text-xs font-black text-amber/85 transition duration-500 group-hover:border-[rgba(201,133,77,0.32)] group-hover:text-gold">
+                  <span className="grid h-8 w-8 place-items-center rounded-full border border-[rgba(201,133,77,0.16)] bg-background/50 text-xs font-black tabular-nums tracking-normal text-amber/85 transition duration-500 group-hover:border-[rgba(201,133,77,0.32)] group-hover:text-gold">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="text-base font-bold text-cream/90 transition duration-500 group-hover:text-cream">

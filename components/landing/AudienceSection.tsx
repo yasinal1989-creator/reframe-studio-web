@@ -23,8 +23,8 @@ export function AudienceSection() {
             <SectionReveal key={audience.title} delay={index * 0.05}>
               <MotionCard className="cinematic-panel relative overflow-hidden rounded-lg border p-8 transition duration-500 hover:border-[rgba(201,133,77,0.2)] hover:shadow-[0_26px_82px_rgba(0,0,0,0.34),0_0_36px_rgba(201,133,77,0.07)]">
                 <div className="absolute right-0 top-0 h-full w-px bg-gradient-to-b from-amber/65 via-[rgba(201,133,77,0.12)] to-transparent" />
-                <p className="premium-label mb-8 text-[0.68rem] font-bold uppercase text-amber/85">
-                  0{index + 1}
+                <p className="mb-8 tabular-nums text-[0.68rem] font-bold tracking-normal text-amber/85">
+                  {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="text-3xl font-black tracking-normal text-cream">
                   {audience.title}

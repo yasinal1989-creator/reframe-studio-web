@@ -31,7 +31,7 @@ export function ContactSection() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noreferrer" : undefined}
-                className="group flex items-center justify-between gap-5 rounded-full border border-white/[0.065] bg-background/54 px-5 py-5 text-left text-xs font-bold uppercase tracking-[0.13em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.34)] hover:bg-amber/[0.08] hover:shadow-[0_18px_60px_rgba(0,0,0,0.26),0_0_34px_rgba(201,133,77,0.08)] sm:text-sm"
+                className="group flex items-center justify-between gap-5 rounded-full border border-white/[0.065] bg-background/54 px-5 py-5 text-left text-xs font-bold uppercase tracking-[0.07em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.34)] hover:bg-amber/[0.08] hover:shadow-[0_18px_60px_rgba(0,0,0,0.26),0_0_34px_rgba(201,133,77,0.08)] sm:text-sm"
               >
                 <span>{link.label}</span>
                 <span
