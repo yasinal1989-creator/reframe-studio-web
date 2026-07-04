@@ -28,7 +28,7 @@ export function FlowSection() {
               <MotionCard className="cinematic-panel relative h-full rounded-lg border p-6 backdrop-blur-xl transition duration-500 hover:border-[rgba(201,133,77,0.22)] hover:shadow-[0_26px_82px_rgba(0,0,0,0.34),0_0_36px_rgba(201,133,77,0.07)]">
                 <div className="mb-8 flex items-center justify-between">
                   <span className="tabular-nums text-4xl font-black tracking-normal text-amber/78">
-                    {step.number}
+                    {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="h-3 w-3 rounded-full border border-amber/55 bg-background shadow-[0_0_24px_rgba(201,133,77,0.2)]" />
                 </div>

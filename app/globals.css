@@ -79,7 +79,7 @@ body {
 }
 
 .premium-label {
-  letter-spacing: 0.14em;
+  letter-spacing: 0.04em;
 }
 
 @media (prefers-reduced-motion: reduce) {

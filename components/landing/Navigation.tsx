@@ -17,7 +17,7 @@ export function Navigation() {
       >
         <a
           href="#hero"
-          className="shrink-0 text-sm font-black uppercase tracking-[0.12em] text-cream"
+          className="shrink-0 text-sm font-black tracking-[0.04em] text-cream"
         >
           Reframe Studio
         </a>
@@ -26,7 +26,7 @@ export function Navigation() {
             <a
               key={item.href}
               href={`#${item.href}`}
-              className="whitespace-nowrap rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-cream-muted/85 transition duration-500 hover:bg-white/[0.05] hover:text-cream"
+              className="whitespace-nowrap rounded-full px-4 py-2 text-xs font-semibold tracking-[0.02em] text-cream-muted/85 transition duration-500 hover:bg-white/[0.05] hover:text-cream"
             >
               {item.label}
             </a>

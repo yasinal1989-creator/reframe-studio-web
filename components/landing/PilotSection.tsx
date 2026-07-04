@@ -28,7 +28,7 @@ export function PilotSection() {
           <div className="cinematic-panel relative overflow-hidden rounded-lg border p-6 backdrop-blur-xl sm:p-8">
             <div className="absolute right-8 top-8 h-24 w-24 rounded-full border border-[rgba(201,133,77,0.14)]" />
             <div className="relative mb-9 flex items-center justify-between border-b border-white/[0.055] pb-6">
-              <p className="premium-label text-[0.68rem] font-bold uppercase text-amber/90">
+              <p className="premium-label text-xs font-bold text-amber/90">
                 Yaklaşım örneği
               </p>
               <span className="h-2 w-2 rounded-full bg-gold/90 shadow-[0_0_26px_rgba(214,154,69,0.26)]" />

@@ -14,7 +14,7 @@ export function ContactSection() {
       <SectionReveal className="relative mx-auto max-w-7xl">
         <div className="cinematic-panel grid gap-10 rounded-lg border p-7 backdrop-blur-xl sm:p-10 lg:grid-cols-[1.1fr_0.9fr] lg:p-14">
           <div>
-            <p className="premium-label mb-5 text-[0.68rem] font-bold uppercase text-amber/90">
+            <p className="premium-label mb-5 text-xs font-bold text-amber/90">
               İletişim
             </p>
             <h2 className="text-balance text-4xl font-black leading-[0.95] tracking-normal text-cream sm:text-6xl">
@@ -31,7 +31,7 @@ export function ContactSection() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noreferrer" : undefined}
-                className="group flex items-center justify-between gap-5 rounded-full border border-white/[0.065] bg-background/54 px-5 py-5 text-left text-xs font-bold uppercase tracking-[0.07em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.34)] hover:bg-amber/[0.08] hover:shadow-[0_18px_60px_rgba(0,0,0,0.26),0_0_34px_rgba(201,133,77,0.08)] sm:text-sm"
+                className="group flex items-center justify-between gap-5 rounded-full border border-white/[0.065] bg-background/54 px-5 py-5 text-left text-xs font-bold uppercase tracking-[0.03em] text-cream transition duration-500 hover:-translate-y-0.5 hover:border-[rgba(201,133,77,0.34)] hover:bg-amber/[0.08] hover:shadow-[0_18px_60px_rgba(0,0,0,0.26),0_0_34px_rgba(201,133,77,0.08)] sm:text-sm"
               >
                 <span>{link.label}</span>
                 <span
