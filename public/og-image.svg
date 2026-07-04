@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#070B0F"/>
+  <path d="M0 0H1200V630H0V0Z" fill="url(#bg)"/>
+  <g opacity="0.22">
+    <path d="M80 90H1120" stroke="#F4EFE6" stroke-opacity="0.12"/>
+    <path d="M80 540H1120" stroke="#F4EFE6" stroke-opacity="0.12"/>
+    <path d="M80 90V540" stroke="#F4EFE6" stroke-opacity="0.08"/>
+    <path d="M1120 90V540" stroke="#F4EFE6" stroke-opacity="0.08"/>
+  </g>
+  <circle cx="935" cy="300" r="190" stroke="#C9854D" stroke-opacity="0.16"/>
+  <circle cx="935" cy="300" r="132" stroke="#F4EFE6" stroke-opacity="0.08"/>
+  <path d="M880 430L1010 170" stroke="#C9854D" stroke-opacity="0.22"/>
+  <circle cx="815" cy="246" r="6" fill="#D69A45"/>
+  <circle cx="1044" cy="405" r="5" fill="#C9854D"/>
+  <g>
+    <path d="M94 142H168" stroke="#C9854D" stroke-width="3"/>
+    <text x="190" y="151" fill="#C9854D" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="8">REFRAME STUDIO</text>
+  </g>
+  <text x="90" y="292" fill="#F4EFE6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="86" font-weight="900" letter-spacing="0">Reframe Studio</text>
+  <text x="94" y="372" fill="#F4EFE6" fill-opacity="0.92" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="44" font-weight="800">Sahadan dijitale üretim sistemi.</text>
+  <text x="96" y="462" fill="#CFC4B5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600" letter-spacing="2">Video · Drone · Kurgu · Web · AI</text>
+  <rect x="842" y="236" width="190" height="154" rx="12" fill="#121A22" fill-opacity="0.86" stroke="#C9854D" stroke-opacity="0.22"/>
+  <text x="889" y="333" fill="#F4EFE6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="88" font-weight="900">RF</text>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(775 246) rotate(148) scale(760 505)">
+      <stop stop-color="#C9854D" stop-opacity="0.14"/>
+      <stop offset="0.46" stop-color="#0B1118" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#070B0F"/>
+    </radialGradient>
+  </defs>
+</svg>

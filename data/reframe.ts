@@ -95,6 +95,13 @@ export const processSteps = [
   "Sistemi düzenli ve sürdürülebilir hale getiririz."
 ] as const;
 
+const whatsappNumber = "905346341988";
+const whatsappMessage =
+  "Merhaba Reframe Studio, projem hakkında bilgi almak istiyorum.";
+const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+  whatsappMessage
+)}`;
+
 export const contactLinks = [
   {
     label: "Instagram’dan Yazın",
@@ -108,7 +115,7 @@ export const contactLinks = [
   },
   {
     label: "WhatsApp ile İletişime Geçin",
-    href: "https://wa.me/000000000000",
+    href: whatsappHref,
     external: true
   }
 ] as const;
